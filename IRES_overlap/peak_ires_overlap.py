@@ -3,7 +3,7 @@ import sys
 import re
 
 #
-# usage: python overlap_peaks.py sample region(150)
+# usage: python peak_ires_overlap.py LARP4 region(150)
 # output format: 
 #
 
@@ -59,7 +59,7 @@ def peak2bed_2(peak): # format: chr start end strand
 # you need to change your work directory
 sample = sys.argv[1]
 region = sys.argv[2]
-peak_file_1 = ""+sample+"_HepG2_rep12.bed6"
+peak_file_1 = ""+sample+"_HepG2_rep12.bed"
 peak_file_2 = "Human_IRES_Info.txt"
 work_dir = ""
 
